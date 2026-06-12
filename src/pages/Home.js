@@ -1,8 +1,10 @@
 import { Header } from '../components/Header.js'
 import { Footer } from '../components/Footer.js'
 
+const html = String.raw;
+
 export function Home() {
-  return `
+  return html `
     ${Header()}
 
     <main>

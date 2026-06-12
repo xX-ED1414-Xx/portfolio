@@ -1,8 +1,10 @@
 import { Header } from '../components/Header.js'
 import { Footer } from '../components/Footer.js'
 
+const html = String.raw;
+
 export function About() {
-  return `
+  return html `
     ${Header()}
 
     <main class="min-h-screen pt-24">

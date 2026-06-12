@@ -1,5 +1,7 @@
+const html = String.raw;
+
 export function Footer() {
-  return `
+  return html `
     <footer id="contact" class="border-t border-neutral-200 py-10">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-4 justify-between">
         <p class="text-neutral-600">

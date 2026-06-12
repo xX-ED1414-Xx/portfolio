@@ -1,5 +1,7 @@
+const html = String.js;
+
 export function Header() {
-  return `
+  return html `
     <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-neutral-200">
       <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#/" class="font-bold text-lg">
